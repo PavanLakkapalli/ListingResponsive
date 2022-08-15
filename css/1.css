@@ -1,0 +1,19 @@
+.parent {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 6; background-color: red;}
+.div2 { grid-area: 4 / 1 / 6 / 2; background-color: yellow;}
+.div3 { grid-area: 2 / 1 / 4 / 2; background-color: black;}
+.div4 { grid-area: 2 / 2 / 6 / 6; background-color: gray;}
+
+@media only screen and (max-width: 960px) {
+    .main {
+      display: flex;
+      flex-direction: row;
+    }
+  }

@@ -1,0 +1,159 @@
+header{
+    height:70px;
+    border:0px solid white;
+    background-color: black;
+    
+}
+#topmenu{
+    float:right;
+    margin-top: 7px;
+    margin-right: 1%;
+}
+.socialImg{
+    height:50px;
+}
+#brand{
+    color:#fff;
+    font-size:30px;
+    float:left;
+    margin-top: 9px;
+    margin-left: 5px;
+}
+#search{
+  height:420px;
+  
+  /* border:5px dotted green; */
+  background-image: url('images/bg1.jpg');
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-size: 100% 420px;
+  border: 3px solid black;
+ 
+  
+}
+#quickSearch{
+    height:600px;
+    border:2px black;
+    margin-left: 15%;
+    
+}
+h2{
+    color:antiquewhite;
+
+
+}
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+    top: 9px;
+   left: 9px;
+   width: 8px;
+   height: 8px;
+   border-radius: 50%;
+   background: white;
+}
+/* The container */
+.container {
+    font-family: cursive;
+    display: block;
+    position: relative;
+    padding-left: 8px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    
+  }
+  
+  /* Hide the browser's default radio button */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  select{
+    margin-left: 4%;
+    height:50px;
+    width:30%;
+    text-align: center;
+    font-size:20px;
+    
+}
+
+#restSelect{
+    width:30%;
+}
+
+#sidemenu{
+        left: 0%;
+        color: black;
+        width:220px;
+        float:left;
+        height: 1043px;
+        border-left: 2px solid black;
+        background-color: #007185;
+        border-right: 2px solid black;
+    
+}
+
+.sort{
+  width: 100%;
+  height: 20px;
+}
+
+
+
+#lp{
+    margin-left: 42px;
+    height: 40px;
+    width: 60%;
+    background-color: yellow;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#menu1{
+    color: #eee;
+
+}
+
+footer{
+    
+    width: 100%;
+    border:2px solid black;
+    background-color: #007185;
+}
+
+
